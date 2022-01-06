@@ -1,0 +1,18 @@
+.main{
+    margin: 3.6%;
+    background-color: #fbe8a6;
+    border-radius: 10.6%;
+    
+}
+
+.title{
+    font-size: larger;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.details{
+    margin: 3.3%;
+    padding: 2.3%;
+}
+

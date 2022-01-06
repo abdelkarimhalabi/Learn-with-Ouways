@@ -1,0 +1,20 @@
+<h1>{{myCourse1.code}}</h1>
+<h1>{{myCourse1.name}}</h1>
+<h1>Description:</h1>
+<span>{{myCourse1.description}}</span>
+<br>
+<!-- <h1>description: {{myCourse1.description}}</h1> -->
+
+<div class="embed-responsive embed-responsive-16by9" style="padding: 2%;">
+    <div class="embed-responsive-item">
+        <youtube-player
+        [videoId]="myCourse1.vUrl" 
+        suggestedQuality="highres" 
+        [height]="200" 
+        [width]="246" 
+        [startSeconds]="0"
+        [endSeconds]="">
+        </youtube-player>
+    </div>
+</div>
+
